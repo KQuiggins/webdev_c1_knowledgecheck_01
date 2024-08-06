@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    background: #74b44a; 
+    border: 2px solid #74b44a; 
+    color: #F1F1F1; 
 }
 
 .btn, .btn:visited  {
@@ -205,6 +207,47 @@ a:hover, a:active {
     border: 2px solid #74b44a;
 }
 
+/* Contact Section
+========================================================================== */
+
+.contact-container {
+    background: #29326a; /* Match the background color with About Me */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+    padding: 48px 0;         /* Similar padding to About Me section */
+}
+
+.contact-content {
+    color: #F1F1F1;          /* Match text color with About Me */
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;      /* Center text inside the content */
+    padding: 12px;
+}
+
+.contact-content h2, .contact-content p, .contact-content ul {
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 24px;
+}
+
+.contact-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-content ul li {
+    margin-bottom: 12px;
+}
+
+.contact-content a {
+    color: #74b44a;          /* Match link color with About Me */
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    color: #F1F1F1;          /* Change link color on hover */
+}
 
 
 /* Typography
